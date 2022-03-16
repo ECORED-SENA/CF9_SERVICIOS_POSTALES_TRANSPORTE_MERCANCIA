@@ -1,0 +1,51 @@
+.hover-columna
+  position: relative
+.pos-relative  
+  position: relative
+
+.border-r10
+  border-radius: 10px    
+.centrar-img
+  margin: 0 auto
+.text-normal
+  color: $color-sistema-texto !important
+.img-center
+  display: flex
+  flex-direction: column
+  justify-content: center  
+.tarjeta-flip
+  cursor: pointer   
+
+
+.banner-interno__fondo
+  background-image: url('../assets/curso/fondo-banner-internas.png') !important 
+
+
+.bg-1
+  background-color: #ACFBF0
+.bg-2
+  background-color: #FFDE96
+.bg-3
+  background-color: #12263F
+.bg-4
+  background-color: #636363
+.bg-acento-botones
+  background-color: #43A99B
+
+  
+.imgs-flotantes
+  position: relative
+.imgs-flotantes img.img-flotante
+  animation: float1 3.5s ease-in-out infinite alternate
+  position: absolute
+  top: -2.2%
+  left: 3.5%
+  width: 125px
+  @media (max-width: 992px)
+    width: 100px
+    left: 1%
+@keyframes float1
+  0%
+    transform: translateY(15px)
+  100%
+    transform: translateY(0px)   
