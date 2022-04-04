@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Cargue y descargue de mercancía',
     descripcionCurso:
       'La manipulación de la carga en su traslado origen - destino conlleva dentro de su línea de proceso el cargue y posterior descargue de las mercancías, de acuerdo con su volumen, peso y naturaleza, cada proceso lleva su propia maniobra en cada uno de sus propios eventos, es decir, cargue y descargue y, van siempre conectados de formas intrínsecas.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner/banner-princiapal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/banner/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [

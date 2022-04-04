@@ -3,7 +3,7 @@
   .container.tarjeta.position-relative(
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
-    .row.banner-principal__row.position-relative.justify-content-center.align-items-center
+    .row.banner-principal__row.position-relative.justify-content-center.align-items-center.py-5
       .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
@@ -17,12 +17,9 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         img(:src="globalData.imagenBannerPrincipal" style="width: 481px")
-    .imagen_flotante_1: img(src="@/assets/curso/float1.png")
-    .imagen_flotante_2: img(src="@/assets/curso/float2.png")
-    .imagen_flotante_3: img(src="@/assets/curso/float3.png")
-
-
-  
+    .imagen_flotante_1: img(src="@/assets/curso/banner/float1.svg")
+    .imagen_flotante_2: img(src="@/assets/curso/banner/float2.svg")
+    .imagen_flotante_3: img(src="@/assets/curso/banner/float3.svg")
 
 </template>
 
@@ -49,38 +46,29 @@ export default {
 .banner-principal__info
   padding-left: 80px !important
   z-index: 3
-
-
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
-
   .tarjeta
     background-color: $color-banner-fondo
     background-size: cover
     background-position: center
-
   &__info
     display: flex
     flex-direction: column
     justify-content: center
-
   &__programa
     display: flex
     align-items: center
     margin-bottom: 20px
-
   &__componente
     margin-bottom: 20px
     h1
       line-height: 1.1em
-
       @media (max-width: $bp-max-xs)
         font-size: 2em
-
   &__descripcion
     margin-bottom: 20px
-
   &__row
     @if $banner-principal-img-x == 'derecha'
       justify-content: space-between
@@ -91,7 +79,6 @@ export default {
       @media (min-width: $bp-min-sm)
         .banner-principal__img
           padding-right: 4rem!important
-
   &__img
     //animation: scale 5s ease-in-out infinite alternate
     @if $banner-principal-img-y == 'arriba'
@@ -111,15 +98,13 @@ export default {
       @media (min-width: $bp-min-sm)
         padding-top: 3rem!important
         padding-bottom: 3rem!important
-
-
 .imagen_flotante
   &_1
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    width: 150px
-    top: -4%
-    left: -4%
+    width: 170px
+    top: 8%
+    left: -6% !important
     z-index: 0
     @media (min-width: 1400px)
       left: -3%
@@ -127,7 +112,7 @@ export default {
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 90px
-    bottom: -25px
+    bottom: -35px !important
     left: 30%
     @media (min-width: 1400px)
       bottom: -25px
@@ -136,19 +121,16 @@ export default {
     animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
     width: 160px
-    top: 12%
-    right: -6%
+    top: 30%
+    right: -4% !important
     z-index: 0
     @media (min-width: 1400px)
       right: -2%
-
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-
-
 @media (max-width: $bp-max-md)
   .fondo-contenido
     display: none
