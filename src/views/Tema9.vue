@@ -97,13 +97,13 @@
     p.mt-5(data-aos="fade-down") Los reportes o informes que se generan del proceso de operación de movilización de objetos postales y el transporte de las mercancías son: 
 
     .row.justify-content-evenly.align-items-stretch.mt-5
-      .col-lg-4.tarjeta--boton.color-primario.p-4(data-aos="fade-left")
+      .col-lg-4.tarjeta-color-primario.p-4(data-aos="fade-left")
         img.img-t.pt-4(data-aos="zoom-in")(src='@/assets/curso/temas/img87.svg', alt='')         
         p.mt-4 #[b Reporte de transacciones recibidas por rango de fechas:] este reporte permite establecer parámetros solicitados estableciendo una fecha inicial y una fecha final, genera reportes de procesos concluidos, es decir, entregas realizadas y cerradas.                             
-      .col-lg-4.tarjeta--boton.color-primario.p-4(data-aos="fade-left")
+      .col-lg-4.tarjeta-color-primario.p-4(data-aos="fade-left")
         img.img-t.pt-4(data-aos="zoom-in")(src='@/assets/curso/temas/img87.svg', alt='')         
         p.mt-4 #[b Reporte de transacciones recibidas y en proceso:] este permite generar información de los objetos postales en proceso de entrega y los recibidos que inician el proceso de clasificación y preparación para transporte y posterior entrega, se debe definir la hora de corte. 
-      .col-lg-4.tarjeta--boton.color-primario.p-4(data-aos="fade-right")
+      .col-lg-4.tarjeta-color-primario.p-4(data-aos="fade-right")
         img.img-t.pt-4(data-aos="zoom-in")(src='@/assets/curso/temas/img87.svg', alt='')         
         p.mt-4 #[b Reporte de transacciones terminadas por rango de fechas:] este informe que contiene el registro de los objetos postales que fueron entregados, con proceso concluido y con soportes de archivo tanto digital como físico.   
 
