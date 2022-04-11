@@ -19,7 +19,7 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img71.png', alt='')
         img.img-flotante(data-aos="zoom-in")(src='@/assets/curso/temas/sobre-flotante2.svg', alt='Imagen decorativa') 
       .col-lg-8
-        p(data-aos="fade-down") Hoy en día además de la regulación legal que deben de cumplir las empresas y para el caso las empresas de servicios postales y de transporte de mercancías se han creado unas normas de calidad y son las Normas ISO (International Organization for Standarization, Organización Internacional de Normalización); las Normas ISO son una serie o conjunto de reglas que facilitan a las organizaciones una cadena o serie de procedimientos para que realicen una gestión óptima y adecuada de su objeto social, una certificación ISO es una carta de garantía de estándares de seguridad y calidad.
+        p(data-aos="fade-down") Hoy en día además de la regulación legal que deben de cumplir las empresas y para el caso las empresas de servicios postales y de transporte de mercancías se han creado unas normas de calidad y son las Normas ISO (<i>international Organization for Standarization</i>, Organización Internacional de Normalización); las Normas ISO son una serie o conjunto de reglas que facilitan a las organizaciones una cadena o serie de procedimientos para que realicen una gestión óptima y adecuada de su objeto social, una certificación ISO es una carta de garantía de estándares de seguridad y calidad.
 
         p(data-aos="fade-down") Dentro de las Normas ISO que se pueden implementar en las empresas de servicios postales y transporte de mercancías son:    
 
@@ -169,7 +169,7 @@
 
             .row.justify-content-center.align-items-center(titulo="")
               .col-lg-10
-                p #[b b.] Con el objeto de no interferir en la circulación del aire frío al interior del contenedor se debe evitar que los pallets estén en contacto con las paredes del contenedor. 
+                p #[b b.] Con el objeto de no interferir en la circulación del aire frío al interior del contenedor se debe evitar que los <i>pallets</i> estén en contacto con las paredes del contenedor. 
 
             .row.justify-content-center.align-items-center(titulo="")
               .col-lg-10

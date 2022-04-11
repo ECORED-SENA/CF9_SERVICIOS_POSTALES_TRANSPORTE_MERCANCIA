@@ -55,7 +55,7 @@
           .col-lg-5
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img34.png', alt='')
 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Indebilidad")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Suficiencia")
         .row.justify-content-center.align-items-center      
           .col-lg-5
             h5 Suficiencia
@@ -63,7 +63,7 @@
           .col-lg-5
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img35.png', alt='')
 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Indebilidad")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Legibilidad")
         .row.justify-content-center.align-items-center      
           .col-lg-5
             h5 Legibilidad
@@ -71,7 +71,7 @@
           .col-lg-5
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img36.png', alt='')
 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Indebilidad")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Conformidad")
         .row.justify-content-center.align-items-center      
           .col-lg-5
             h5 Conformidad

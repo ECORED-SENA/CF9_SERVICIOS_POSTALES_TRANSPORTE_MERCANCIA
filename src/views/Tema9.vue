@@ -9,7 +9,7 @@
 
     .row.justify-content-between.align-items-center
       .col-lg-8 
-        p(data-aos="fade-down") También denominadas checklist son formatos establecidos por la organización para generar control de los procesos y procedimientos, en estas listas se registran las actividades que son repetitivas y que deben ser controladas, ayuda al cumplimiento de los objetivos y disminuye errores en el proceso, las listas de chequeo se verifican diariamente para evaluar el cumplimiento de los objetivos, generando control y ajustes oportunamente.    
+        p(data-aos="fade-down") También denominadas <i>checklist</i> son formatos establecidos por la organización para generar control de los procesos y procedimientos, en estas listas se registran las actividades que son repetitivas y que deben ser controladas, ayuda al cumplimiento de los objetivos y disminuye errores en el proceso, las listas de chequeo se verifican diariamente para evaluar el cumplimiento de los objetivos, generando control y ajustes oportunamente.    
         .cajon.color-acento-contenido.p-4(data-aos="flip-down")
           p(data-aos="fade-down") Todo los procesos o procedimientos de movilización de objetos postales y transporte de mercancías, ya sea que contenga unas características generales o especiales para el condicionamiento de transporte debe disponer de una lista de chequeo, las listas de chequeo registran información para verificar dos procesos o eventos, estos son: 
           ol.lista-ol.mt-4

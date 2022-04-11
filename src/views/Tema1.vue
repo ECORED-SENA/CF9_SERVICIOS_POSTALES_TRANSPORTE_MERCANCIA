@@ -68,6 +68,8 @@
           i.fas.fa-paper-plane
           p.mb-0 Operador de mensajería expresa. 
 
+    p(data-aos="fade-down").mt-5 Las empresas para prestar los servicios postales deben acreditar ante el Ministerio de Tecnologías requisitos como: 
+
     .row.justify-content-between.align-items-stretch.mt-5
       .col-lg-3.tarjeta--boton.color-primario.p-4(data-aos="fade-left")
         img.img-t.pt-4(data-aos="zoom-in")(src='@/assets/curso/temas/img8.svg', alt='')         
@@ -133,6 +135,14 @@
             p Es un tipo de carga diferente, requiere de una manipulación cuidadosa, esto por las condiciones como peligrosidad, peso, grado de conservación, alto valor, esta carga demanda un trato especial, son consideradas cargas especiales, la carga pesada como maquinaria, carga refrigerada como productos alimenticios o medicinas y carga peligrosa como las sustancias ácidas o químicas. 
           .col-lg-4
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img15.png', alt='')
+
+      .py-4.py-md-5(titulo="Carga contenedorizada" :icono="require('@/assets/curso/temas/img12.svg')")
+        .row.justify-content-center.align-items-center
+          .col-lg-8
+            h5 Carga contenedorizada
+            p Es la carga que se transporta en contenedores o furgones, es de diverso embalaje, para su transporte se utiliza cajas de fibra de vidrio o metálicas, todas de un mismo tamaño, este tipo de carga permite movilizar en menos tiempo mayor cantidad de carga. 
+          .col-lg-4
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img15.png', alt='')            
 
     p(data-aos="fade-down").mt-5 La simbología de la carga son los gráficos que orientan y transmiten las especificaciones de seguridad para el manejo de las mercancías. 
 
@@ -269,6 +279,8 @@
               p.mt-4 Estibadores manuales, mecánicos, eléctricos y montacargas. 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img23.jpg')})`}")
 
+    p(data-aos="fade-down").mt-5 La utilización adecuada de los equipos genera a la organización optimizar tiempos, mejorar productividad, desarrollar el proceso de cargue y descargue de forma adecuada, los procesos establecidos mejoran la productividad y disponibilidad de que los vehículos estén disponibles para prestar el servicio en otras rutas.
+
     Separador 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.4 Documentación según características de la mercancía  
@@ -277,7 +289,7 @@
       .col-lg-8 
         p(data-aos="fade-down") Los documentos de transporte son la certificación de la prestación del servicio o certificación del contrato, ya sea prestado por vía terrestre, aérea, marítima, fluvial o cualquiera de las posibles combinaciones de los medios de transporte para cumplir la entrega, también es el soporte de recibo y entrega de las mercancías al destinatario; cuando el documento de transporte es emitido por el transportador, este se denomina documento de transporte directo, el documento emitido  por un agente de carga internacional y que sea carga consolidada se denomina master, cuando el documento es emitido por una empresa de servicios postales y transporte de mercancías se denomina contrato de transporte, y acredita que el transportador recibió la mercancía en custodia.
 
-        p(data-aos="fade-down") a documentación necesaria para el ingreso y egreso de las mercancías a la zona de cargue y descargue respectivamente, como mínimo debe ser la siguiente:
+        p(data-aos="fade-down") La documentación necesaria para el ingreso y egreso de las mercancías a la zona de cargue y descargue respectivamente, como mínimo debe ser la siguiente:
       .col-lg-4.imgs-flotantes.my-3  
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img24.png', alt='')
         img.img-flotante(data-aos="zoom-in")(src='@/assets/curso/temas/sobre-flotante.svg', alt='Imagen decorativa')  

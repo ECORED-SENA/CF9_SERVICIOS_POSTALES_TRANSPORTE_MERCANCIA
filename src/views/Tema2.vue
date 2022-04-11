@@ -12,18 +12,18 @@
     TabsC.color-acento-contenido.mt-5(data-aos="fade-right")
       .py-3.py-md-4(titulo="Empaques de mercancía")
         .row.justify-content-center.align-items-center
-          .col-lg-4
+          .col-lg-4.my-3
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img29.png', alt='')
           .col-lg-5
             h5 Empaques de mercancía
-            p Una de las características del empaque es que brinda información sobre el producto. Los empaques son la exposición o presentación comercial del producto, este asegura que el producto no entre en contacto con el medio exterior, lo conserva limpio y en caso de ser un alimento debe consérvalo fresco, brinda la imagen del producto y es la presentación de este al cliente, cumple una función de marketing.
+            p Una de las características del empaque es que brinda información sobre el producto. Los empaques son la exposición o presentación comercial del producto, este asegura que el producto no entre en contacto con el medio exterior, lo conserva limpio y en caso de ser un alimento debe consérvalo fresco, brinda la imagen del producto y es la presentación de este al cliente, cumple una función de <i>marketing</i>.
 
-      .py-3.py-md-4(titulo="Empaques de mercancía")
+      .py-3.py-md-4(titulo="Embalaje de mercancia")
         .row.justify-content-center.align-items-center
           .col-lg-5
             h5 Embalaje de mercancía
             p Los embalajes contienen códigos de barras o etiquetas,  esto permite fácil ubicación en el almacenaje, además contiene información de tipo legal como correcta manipulación, conservaciones del producto, prohibiciones y es  la forma de proteger la mercancía durante el proceso de transporte. 
-          .col-lg-4
+          .col-lg-4.my-3
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img30.png', alt='')                      
 
     .cajon.color-primario.p-4.mt-5(data-aos="flip-down")
