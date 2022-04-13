@@ -136,13 +136,13 @@
           .col-lg-4
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img15.png', alt='')
 
-      .py-4.py-md-5(titulo="Carga contenedorizada" :icono="require('@/assets/curso/temas/img12.svg')")
+      .py-4.py-md-5(titulo="Carga contenedorizada" :icono="require('@/assets/curso/temas/img12_1.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-8
             h5 Carga contenedorizada
             p Es la carga que se transporta en contenedores o furgones, es de diverso embalaje, para su transporte se utiliza cajas de fibra de vidrio o metálicas, todas de un mismo tamaño, este tipo de carga permite movilizar en menos tiempo mayor cantidad de carga. 
           .col-lg-4
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img15.png', alt='')            
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img15_1.png', alt='')            
 
     p(data-aos="fade-down").mt-5 La simbología de la carga son los gráficos que orientan y transmiten las especificaciones de seguridad para el manejo de las mercancías. 
 
