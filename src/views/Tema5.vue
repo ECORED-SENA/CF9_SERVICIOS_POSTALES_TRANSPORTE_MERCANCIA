@@ -45,7 +45,7 @@
     ImagenInfografica.color-secundario.mt-5.p-4
       template(v-slot:imagen)
         figure
-          img.img-a.img-t(src='@/assets/curso/temas/img59.svg', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/img59.png', alt='')
 
       .tarjeta.color-acento-botones.p-3(x="50%" y="0%" numero="")
         .h5.mb-2 Riesgos Mecánicos

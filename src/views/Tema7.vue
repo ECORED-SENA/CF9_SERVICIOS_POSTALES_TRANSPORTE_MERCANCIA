@@ -71,34 +71,37 @@
         h5(data-aos="fade-down") Son la condición o las condiciones que se deben cumplir al realizar una actividad, dichos criterios deben tener unas condiciones, estas son de claridad, de aceptación entre las partes, deben ser entendibles, medibles, cuantificables, flexibles y realistas, contienen tiempos de cumplimiento.
       .col-lg-6
         p(data-aos="fade-down") Los criterios de calidad, tomando la palabra criterio como sinónimo de indicador, se puede  decir que los criterios de calidad son medidas de carácter cuantitativo que se usan para evaluar la calidad, para el caso en las empresas de servicios postales y transportes de mercancías. 
-
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-7
         p(data-aos="fade-down") Los criterios de calidad están conexos con: 
 
-    ol.lista-ol--cuadro.lista-ol--separador
-      li(data-aos="fade-down") 
-        .lista-ol--cuadro__vineta
-          span 1
-        p.mb-0 La satisfacción del cliente por el cumplimiento de la promesa de valor.
-      li(data-aos="fade-down") 
-        .lista-ol--cuadro__vineta
-          span 2
-        p.mb-0 La accesibilidad que tiene el cliente para obtener los servicios.
-      li(data-aos="fade-down") 
-        .lista-ol--cuadro__vineta
-          span 3
-        p.mb-0 La efectividad y el logro de los resultados.
-      li(data-aos="fade-down") 
-        .lista-ol--cuadro__vineta
-          span 4
-        p.mb-0 La eficiencia relación objetivo/resultado, desarrollando la actividad en condiciones normales.
-      li(data-aos="fade-down") 
-        .lista-ol--cuadro__vineta
-          span 5
-        p.mb-0 La eficacia balance entre lo que ofrece y lo que se consigue.
-      li(data-aos="fade-down") 
-        .lista-ol--cuadro__vineta
-          span 6
-        p.mb-0 Impacto social siendo la imagen que percibe el entorno y la sociedad de la organización 
+        ol.lista-ol--cuadro.lista-ol--separador
+          li(data-aos="fade-down") 
+            .lista-ol--cuadro__vineta
+              span 1
+            p.mb-0 La satisfacción del cliente por el cumplimiento de la promesa de valor.
+          li(data-aos="fade-down") 
+            .lista-ol--cuadro__vineta
+              span 2
+            p.mb-0 La accesibilidad que tiene el cliente para obtener los servicios.
+          li(data-aos="fade-down") 
+            .lista-ol--cuadro__vineta
+              span 3
+            p.mb-0 La efectividad y el logro de los resultados.
+          li(data-aos="fade-down") 
+            .lista-ol--cuadro__vineta
+              span 4
+            p.mb-0 La eficiencia relación objetivo/resultado, desarrollando la actividad en condiciones normales.
+          li(data-aos="fade-down") 
+            .lista-ol--cuadro__vineta
+              span 5
+            p.mb-0 La eficacia balance entre lo que ofrece y lo que se consigue.
+          li(data-aos="fade-down") 
+            .lista-ol--cuadro__vineta
+              span 6
+            p.mb-0 Impacto social siendo la imagen que percibe el entorno y la sociedad de la organización 
+      .col-lg-5
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img88.svg', alt='')
 
     p.mt-5(data-aos="fade-down") Las empresas de servicios postales y transporte de mercancías implementan indicadores o criterios de calidad denominados criterios GRI (Global Reporting Initiative), los cuales permite a las empresas establecer y disponer de estándares de sostenibilidad para planear, medir, evaluar y comunicar impactos y avances desde lo económico, ambiental y social, este criterio es importante en el área de responsabilidad social empresarial.
 
