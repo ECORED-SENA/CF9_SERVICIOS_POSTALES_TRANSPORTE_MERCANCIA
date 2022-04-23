@@ -138,7 +138,7 @@
       .col-lg-6.my-2
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img89.svg', alt='')
 
-    p.mt-5(data-aos="fade-down") Además de todos aquellos reportes que de forma individual y, dadas las condiciones específicas del operador de servicios postales, de la herramienta ofimática de la que dispone y de la necesidad del cliente que se puedan integrar.
+    p.mt-3(data-aos="fade-down") Además de todos aquellos reportes que de forma individual y, dadas las condiciones específicas del operador de servicios postales, de la herramienta ofimática de la que dispone y de la necesidad del cliente que se puedan integrar.
 
 </template>
 
