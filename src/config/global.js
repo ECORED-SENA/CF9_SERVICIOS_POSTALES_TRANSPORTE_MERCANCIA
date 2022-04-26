@@ -201,7 +201,7 @@ export default {
       referencia:
         'Comisión de regulación de comunicaciones. (2010). Parámetros de calidad de los servicios postales diferentes al servicio postal universal. ',
       link:
-        'https://www.crcom.gov.co/recursos_user/Documentos_CRC_2011/Servicios_Postales/Proyectos_Regulatorios_Postales/Parametros_de_Calidad/DocumentoSoporte_Ind_Calidad.pdf',
+        'https://www.crcom.gov.co/es/biblioteca-virtual/parametros-calidad-servicios-postales-diferentes-al-servicio-postal-universal',
     },
     {
       referencia: 'Deprisa. (s.f). Calcular peso volumétrico.',
