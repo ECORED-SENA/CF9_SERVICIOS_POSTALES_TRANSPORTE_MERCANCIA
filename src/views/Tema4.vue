@@ -184,7 +184,7 @@
             p Referente al volumen y peso o peso volumétrico es la medida que se utiliza en el sector transporte y, hay que tener en cuenta que el tamaño de los envíos expresa densidad, esto sirve para calcular el volumen y calcular el peso real del envío, el peso volumétrico es la principal variable para establecer tarifas, como se trató en el numeral 1.2 peso y volumen la fórmula para definir el peso volumétrico es: 
             br 
             br
-            p.colorp-yellow.p-3 Largo x Ancho x Alto = Factor de peso volumétrico.
+            p.colorp-yellow.p-1 Largo x Ancho x Alto = Factor de peso volumétrico.
             br
             br
 

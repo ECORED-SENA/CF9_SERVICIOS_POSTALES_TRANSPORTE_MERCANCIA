@@ -14,10 +14,11 @@
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
+            .tarjeta-slide__contenido.p-4.px-5
               h5.mt-5.pt-5 Marcas informativas
               p.mb-5.mb-5 Son las que tienen relación con la información del producto.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img31.jpg')})`}")
+              h3.text-center.p-flip_img.p-color.py-3 Marcas informativas
 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-down")
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
@@ -27,6 +28,7 @@
               h5.mt-5.pt-5 Marcas de manipuleo
               p.mb-5.mb-5 Son los símbolos o las orientaciones gráficas internacionales que permiten una correcta manipulación del producto o mercancías.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img32.jpg')})`}")
+              h3.text-center.p-flip_img.p-color.py-3 Marcas de manipuleo          
 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-left")
         .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
@@ -36,6 +38,7 @@
               h5.mt-5.pt-5 Marca de expedición 
               p.mb-5.mb-5 Refiere los datos necesarios para la entrega de la mercancía o el embalaje al destinatario o en el lugar de destino.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img33.jpg')})`}")
+              h3.text-center.p-flip_img.p-color.py-3 Marca de expedición
 
     TabsA.color-primario.mt-5(data-aos="fade-left") 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Indebilidad")
@@ -92,7 +95,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-0 Si es de su interés ampliar la información puede ir al material complementario y consultar el video #[b “Etiquetado, marcado y rotulación”]
+              p.mb-0 Si es de su interés ampliar la información puede ir al material complementario y consultar el video #[b etiquetado, marcado, rotulación y legalidades]
             .col-sm-auto
               a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=iYronFs13cE" target="_blank")
                 span Ver más

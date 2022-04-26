@@ -38,7 +38,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-0 Si es de su interés ampliar la información puede ir al material complementario y consultar el video #[b “Envase, empaque, embalaje”]
+              p.mb-0 Si es de su interés ampliar la información puede ir al material complementario y consultar el video #[b envase, empaque y embalaje]
             .col-sm-auto
               a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=bk8o7KSwJho" target="_blank")
                 span Ver más

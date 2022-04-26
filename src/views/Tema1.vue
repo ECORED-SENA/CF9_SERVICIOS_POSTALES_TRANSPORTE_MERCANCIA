@@ -218,7 +218,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-0 Si es de su interés ampliar la información puede ir al material complementario  y consultar el video #[b “Cálculo de peso volumétrico para paquetes”.]
+              p.mb-0 Si es de su interés ampliar la información puede ir al material complementario  y consultar el video #[b Cómo calcular el peso volumétrico de tus paquetes | Importación Courier.]
             .col-sm-auto
               a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=K7lefxdO_io" target="_blank")
                 span Ver más
@@ -383,7 +383,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-0 Si es de su interés ampliar la información puede ir al material complementario y consultar el video #[b “Mercancías peligrosas”.]
+              p.mb-0 Si es de su interés ampliar la información puede ir al material complementario y consultar el video #[b Etiquetas de mercancías peligrosas ADR.]
             .col-sm-auto
               a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=3YgFdAOl4jM" target="_blank")
                 span Ver más
